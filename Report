@@ -1,0 +1,34 @@
+/*Assignment 3 (Report): Lilli Lewis 
+ * 10/09/23
+ * I confirm that the above list of sources is complete (none) AND that I have 
+ *  not talked to anyone else about the solution to this problem.*/
+ 
+1. Which category/categories are the accessibility checkers best at identifying errors for (e.g. have the 
+    highest ratio of errors found to errors possible)? Which category/categories are the accessibility checkers 
+    worst at identifying errors for (e.g. have the lowest ratio of errors found to errors possible)? Describe the 
+    general theme of the tests in each of the best and worst categories (e.g. why are these tests in the same group)?
+    	The best category with identifying errors was the Title category. They averaged 66% successful error finding. 
+    	The next best category was buttons, which averaged 62.5% successful error finding . The third best category was 
+    	colour/contrast, with an average successful error finding of 50%. What I notice in common about these categories 
+    	is that they seem easy to program: does the title exist and is it large, do the buttons make a change to the website,
+    	is there significant color contrast? I feel as though a beginner programmer could tackle each of these error checks. 
+    	Another similarity is that the errors (or lack thereof) are visual (I think).
+    	The worst categories were layout and navigation, each with zero errors found. CSS  placed poorly, with 5% of the errors
+    	found. Keyboard also placed lowly, finding 6% of the possible errors. These tests, to me, seem difficult to test. I have
+    	no idea how I'd go about making criteria for a "good" layout or navigation. I also think keyboard would be dependent
+    	on the user's computer, not on the website. CSS is also something that involves layout/navigation as best as I can tell.
+    	What these categories have in common is that they involve how well a user can use a website. They are less visual and more
+    	structural, and might be unique to each website and thus difficult to write tests for.
+    
+2. Select one of the tests that is shown in the showAllFailed and describe what the issues is and how it can affect 
+    a person with a disability.
+    	The test I selected is from the Multimedia category, and its text description is "Flashing content doesn't have warning".
+    	The text description makes it very obvious what the issue is: the user could stumble upon flashing content, something
+    	which could cause a person with epilepsy to have a seizure.
+    	
+3. Reflect: How does this assignment shape your understanding of computer science?
+		I hadn't given much, if any thought to how to make websites a more accessible space. I've helped my grandparents enlarge
+		text before, and the flashing content I mentioned in the last question is something I would notice immediately, but I would
+		not have thought that lists need to be marked as lists or that long lines of text might pose an issue to someone. It makes
+		me wish Grinnell could have a class in each intro sequence discussing online accessibility.
+ 

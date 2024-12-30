@@ -1,0 +1,273 @@
+/*Assignment 3 (GitLog): Lilli Lewis 
+ * 10/08/23
+ * I confirm that the above list of sources is complete (none) AND that I have 
+ *  not talked to anyone else about the solution to this problem.*/
+ 
+ 
+ commit ae09b04d85c03a224fdfe222bafbf1699b1cf304 (HEAD -> master)
+Author: Lewis <lewislil@kilby.cs.grinnell.edu>
+Date:   Tue Oct 10 00:12:28 2023 -0500
+
+    Modified a comment for the grader's benefit
+
+commit fc1cc2de9f3c8187682ee0a9f591ecaa5879220a
+Author: Lewis <lewislil@kilby.cs.grinnell.edu>
+Date:   Tue Oct 10 00:11:57 2023 -0500
+
+    Modified privacy of fields
+
+commit 6609490a8deda5396ead7b95927b2d6c8e36c399
+Author: Lewis <lewislil@kilby.cs.grinnell.edu>
+Date:   Tue Oct 10 00:11:23 2023 -0500
+
+    modified JavaDoc comments
+
+commit 2571e75185841616a70b833d15246705732aacd7
+Author: Lewis <lewislil@kilby.cs.grinnell.edu>
+Date:   Mon Oct 9 23:45:05 2023 -0500
+
+    Finished working on this file, everything is formatted, and everything is commented
+:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Below is full history of every git call I made. I don't know if you want it or not.
+ 
+ 
+ 
+ 
+ strachey src$git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   AccessibilityResults.java
+	new file:   AccessibilityTest.java
+	new file:   IncorrectFileNameException.java
+
+ strachey src$git commit AccessibilityTest.java "Finished writing the AccessibilityResults file"
+error: pathspec 'Finished writing the AccessibilityResults file' did not match any file(s) known to git
+ strachey src$git commit AccessibilityTest.java -m "Finished writing the AccessibilityResults file"
+[master (root-commit) 4014764] Finished writing the AccessibilityResults file
+ Committer: Lewis <lewislil@strachey.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 93 insertions(+)
+ create mode 100644 AccessibilityTest.java
+ strachey src$git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   AccessibilityResults.java
+	new file:   IncorrectFileNameException.java
+
+ strachey src$git commit IncorrectFileNameException.java -m "Finished writing the IncorrectFileNameException file"
+[master 6a5641e] Finished writing the IncorrectFileNameException file
+ Committer: Lewis <lewislil@strachey.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+)
+ create mode 100644 IncorrectFileNameException.java
+ strachey src$git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   AccessibilityResults.java
+
+ 
+  strachey src$git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   AccessibilityResults.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   AccessibilityResults.java
+	modified:   AccessibilityTest.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	AccessibilityTester.java
+
+ 
+
+ 
+ strachey src$git commit AccessibilityTest.java -m "Modified the toString format"
+[master 9956011] Modified the toString format
+ Committer: Lewis <lewislil@strachey.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  kilby ~$cd csc207
+ kilby csc207$cd Assignment3
+ kilby Assignment3$cd src
+ kilby src$git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   AccessibilityResults.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   AccessibilityResults.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	AccessibilityTester.java
+
+ kilby src$git commit AccessiiiibilityResults.java -m "Updated Javadoc comments"error: pathspec 'AccessiiiibilityResults.java' did not match any file(s) known to git
+ kilby src$git commit AccessibilityResults.java -m "Updated Javadoc comments"
+[master 7f087c7] Updated Javadoc comments
+ Committer: Lewis <lewislil@kilby.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 217 insertions(+)
+ create mode 100644 AccessibilityResults.java
+ kilby src$git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	AccessibilityTester.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+ kilby src$git commit AccessibilityTester.java -m "Finished working on this file, everything is formatted, and everything is commented"
+error: pathspec 'AccessibilityTester.java' did not match any file(s) known to git
+ kilby src$git add AccessibilityTester.java
+ kilby src$git commit AccessibilityTester.java -m "Finished working on this file, everything is formatted, and everything is commented"
+[master 2571e75] Finished working on this file, everything is formatted, and everything is commented
+ Committer: Lewis <lewislil@kilby.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 91 insertions(+)
+ create mode 100644 AccessibilityTester.java
+ 
+ 
+ 
+ 
+  kilby src$git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   AccessibilityResults.java
+	modified:   AccessibilityTest.java
+	modified:   AccessibilityTester.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ kilby src$git commit AccessibilityResults.java -m "modified JavaDoc comments"
+[master 6609490] modified JavaDoc comments
+ Committer: Lewis <lewislil@kilby.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ kilby src$git commit AccessibilityTest.java -m "Modified privacy of fields"
+[master fc1cc2d] Modified privacy of fields
+ Committer: Lewis <lewislil@kilby.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ kilby src$git commit AccessibilityTester.java -m "Modified a comment for the grader's benefit"
+[master ae09b04] Modified a comment for the grader's benefit
+ Committer: Lewis <lewislil@kilby.cs.grinnell.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ kilby src$
+
+ 
